@@ -1,0 +1,92 @@
+/* Home Page */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    text-transform:uppercase;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+ul li{
+    padding: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: #333;
+}
+.active-link{
+    background-color: lightpink;
+    padding: 10px;
+}
+header{
+    background-color: #f5f5f5;
+    padding: 80px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+    border-radius: 1px;
+    width: 50vh;
+    height: 20vh;
+    padding: 20px;
+    margin: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.full-card{
+    width: 76%;
+}
+/* product */
+caption{
+    margin: 30px;
+    font-size: 3rem;
+}
+table{
+    font-family: sans-serif;
+      width: 70%;
+      border-collapse: collapse;
+      border: 1px solid #ddd;
+      overflow: hidden;
+      border-radius: 4px;
+      margin-bottom: 20px;
+}
+  td ,th{
+      text-align: center;
+      padding: 8px;
+      font-size: 16px;
+      color: white;
+      padding: 15px;
+      font-weight: bold;
+  }
+thead tr:nth-child(1){
+    border: 1px solid white;
+}
+  th:nth-child(1) ,td:nth-child(1){
+      background: #2e86c1;
+  }
+  th:nth-child(2) ,td:nth-child(2){
+      background: #2874a6;
+  }
+  th:nth-child(3) ,td:nth-child(3){
+      background: #1a5276;
+  }
+  th:nth-child(4) ,td:nth-child(4){
+      background: #154360;
+  }
+  
